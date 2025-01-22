@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    justify-content:center;
+    background:black;
+    align-items:center;
+    font-family: "Roboto", serif;
+    font-size:12px;
+}
+
+i{
+    font-size:20px;
+}
+
+.post{
+    width: 500px;
+    background: whitesmoke;
+    display:flex;
+    flex-direction:column;
+}
+
+.post-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.user-data{
+    display:flex;
+    align-items: center;
+    gap:10px;  
+   
+}
+
+.username{
+    display:block;
+}
+.username p{
+    margin:0;
+}
+
+
+.image img{
+    width:100%;
+    object-fit:cover;
+}
+
+
+
+.post-info{
+    display:flex;
+    flex-direction:column;
+    gap: 12px;
+    padding:10px 10px 20px 10px;
+   
+}
+
+.social-icons{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.share-icons{
+    display:flex;
+    gap: 10px;
+}
+
+.post-description p{
+    margin:0;
+}
